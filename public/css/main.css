@@ -1,0 +1,43 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   line-height: 1.5;
+   font-size: 1em;
+   font-family: Segoe UI;
+   font-weight: 300;
+   overflow-x: hidden;
+}
+
+nav {
+   background: #222;
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
+.navbar-brand {
+   font-weight: 600;
+   line-height: 1.0;
+}
+
+#mobile-nav ul li:hover {
+   background: #000;
+   color: #fff;
+}
+
+.alert {
+   position: relative;
+}
+
+.alert .btn-close {
+   position: absolute;
+   top: .5em;
+   right: .5em;
+   background: transparent;
+   box-shadow: 0;
+}

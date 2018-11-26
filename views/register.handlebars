@@ -1,0 +1,36 @@
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12">
+            <h1>{{title}}</h1>
+         </div>
+      </div>
+      <div class="row m-0 my-4">
+         <div class="col-sm-12">
+            <form id="user-register" class="" action="/user/register" method="POST">
+               <div class="form-group">
+                  <label for="name">Name</label>
+                  <input id="name" class="form-control" type="text" name="name">
+               </div>
+               <div class="form-group">
+                  <label for="email">Email</label>
+                  <input id="email" class="form-control" type="email" name="email">
+               </div>
+               <div class="form-group">
+                  <label for="username">Username</label>
+                  <input id="username" class="form-control" type="text" name="username">
+               </div>
+               <div class="form-group">
+                  <label for="password">Password</label>
+                  <input id="password" class="form-control" type="password" name="password">
+               </div>
+               <div class="form-group">
+                  <label for="password2">Confirm Password</label>
+                  <input id="password2" class="form-control" type="password" name="password2">
+               </div>
+               <button type="submit" name="button" id="btn-submit" class="btn btn-success">
+                  SUBMIT USER
+               </button>
+            </form>
+         </div>
+      </div>
+   </div>
